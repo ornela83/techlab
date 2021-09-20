@@ -12,42 +12,90 @@
 <body>
     <header class= "header">
         <div class="contenedor">
-            <div class="barra">
+            <nav class="barra">
                 <a href="/">
-                    <img src="build/img/Logo.webp" alt="" class="logo">
+                    <img src="build/img/Logo.webp" alt="Logotipo Incluye" class="logo">
                 </a>
-                <nav class="navegacion">
-                    <a href="home.html">Home</a>
-                    <a href="nosotros">Quiénes Somos</a>
-                    <a href="servicios">Servicios</a>
-                    <a href="partners">Partners</a>
-                </nav>
-            </div>
+                <ul class="navegacion">
+                    <li>
+                        <a href="#home" title="">Home</a>
+                    </li>
+                    <li>
+                        <a href="#nosotros" title="">Quiénes Somos</a>
+                    </li>
+                    <li>
+                        <a href="#servicios" title="">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#partners" title="">Partners</a>
+                    </li> 
+                </ul>
+            </nav>
         </div>
         <div class="principal contenido-header">
-            <h1>La fuerza radica en la diferencia, no en las similitudes.</h1>
-            <button class="boton">Nuestros Servicios</button>
+            <div class="contenedor">
+                <h1>La fuerza radica en la diferencia, no en las similitudes.</h1>
+                <button class="boton">Nuestros Servicios</button>
+            </div>
         </div>
     </header>
-    <main class="contenedor">
-        
-        
+    <main class="contenedor intro">
+
+            <div class="left">
+                <p>La pandemia ha generado la necesidad de trasladar muchas de las dinámicas sociales como la educación, salud, productos y servicios a las plataformas digitales.</p>
+                <p>Por lo que, ha obligado a las organizaciones casi a marchar forzadas, a reinventarse y a innovar para sobrevivir y adaptarse, así como promover una Cultura de Diversidad e inclusión socialmente responsable e impactar en la sociedad.</p>
+                <h3>Pero realmente estamos diseñando Innovación inclusiva para <span class="azul">Todas y todos?</span></h3>
+            </div>
+            <div class="rigth">
+                <!--<video src=""></video>-->
+                <img src="build/img/video.webp" alt="reemplazar por video">
+            </div>        
     </main>
+    <section class="informacion">
+        <div class="contenedor">
+            <h2>¿Sabias qué?</h2>
+            <div class="info">
+                <div class="card">
+                    <div class="card_2">
+                        <h3>1.3</h3>
+                        <h3>Billones</h3>
+                    </div>
+                    <p>Personas con discapacidad y adultos mayores en el mundo</p>
+                </div>
+                <div class="text">
+                    <p>Combinados con amigos y familia, el mercado de la discapacidad es del 53% de consumidores. Y controla más de $8 trillones de USD en el ingreso disponible anual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer seccion">
         <div class="contenedor social">
-            <div class="contactenos">
-                <p>Contactenos</p>
-                <p>Email: contacto@incluyetechlab.net</p>
-                <p>Hablemos por WhatsApp</p>
+            <ul class="contactenos">
+                <li>
+                    <h3>Contactenos</h3>                    
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-envelope"></i> Email: contacto@incluyetechlab.net</a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-whatsapp"></i> Hablemos por WhatsApp</a>
+                </li>
 
-            </div>
-            <div class="redes">
-                <p>Redes</p>
-                <p>Seguinos en Instagram</p>
-                <p>Seguinos en Facebook</p>
-                <p>Seguinos en Linkedin</p>
-
-            </div>
+            </ul>
+            <ul class="redes">
+                <li>
+                    <h3 class="dismiss">Redes</h3>                    
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i> Seguinos en Instagram</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i> Seguinos en Facebook</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i> Seguinos en Linkedin</a>
+                </li>
+            </ul>
         </div>
         <p class="copyright">Incluye Tech Lab 2021 &copy; Copyright 2021   |   Desarrollado por Desarrolla Web</p>
     </footer>
