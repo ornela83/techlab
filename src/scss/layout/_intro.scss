@@ -1,0 +1,28 @@
+.intro{
+    h3{
+        margin-top: 2rem;
+        text-align: left;
+        font-weight: $bold;
+        line-height: 1.2;
+    }
+    p{
+        margin: 0 auto;
+    }
+    span{
+        color:$lila;
+    }
+    @include tablet{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap:$separacion;
+    }
+    
+}
+.rigth{
+    align-self: center;
+    img{
+        display: inline-block;
+        border: 1px solid #0000;
+        border-radius: 4rem;
+    }
+}

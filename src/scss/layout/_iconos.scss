@@ -1,0 +1,29 @@
+.servicios{
+    h2,p{
+        text-align: center;
+        margin: 0 $separacion;
+    }
+}
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: $separacion;
+    
+    img{
+        max-width: 50%;
+        height: fit-content;
+
+    }
+    h3{
+        text-decoration: underline 1px;
+        font-size: 1.8rem;
+    }
+}
+.iconos-servicios{
+    @include grid(2, 2rem);
+        @include tablet{
+            @include grid(4, 2rem)
+        }
+}

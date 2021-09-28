@@ -1,0 +1,49 @@
+.no-webp .principal{
+    background-image: url(../img/manos.jpg);
+}
+.webp .principal{
+    background-image: url(../img/manos.webp);
+}
+
+.header{
+    padding: 1rem 0 3rem 0;
+}
+.principal{
+    min-height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    h1{
+        width: 35rem;
+        color: $blanco;
+        background-color: rgba(160, 127, 94, 0.5);
+        border-radius: 10%;
+        padding: 2rem;
+        line-height: normal;
+        margin-left: 1rem;
+        @include tablet{
+            margin-left: 10rem;
+        }
+        
+    }
+    button{
+        cursor: pointer;
+        margin-left: 10rem;
+        padding: 1rem 2rem;
+        color: $blanco;
+        background-color: $amarillo;
+        border: none;
+        font-weight: $bold;
+        display: none;
+        @include tablet{
+            display: block;
+            &:hover{
+                opacity: 0.7;
+            }
+        }        
+    }
+}
