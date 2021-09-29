@@ -44,6 +44,7 @@
         }
     }
 }
+
 hr{
     padding-bottom: 0;
 }
@@ -64,7 +65,7 @@ hr{
 /*Side-Bar*/
 @media (max-width: #{$tablet}){
     .navegacion {
-        display: block;
+        display: none;
         position: absolute;
         top:7.8rem;
         right: 0;
@@ -72,10 +73,10 @@ hr{
         width: 50%;
         height: 100%;
         //opacity: 0.9;
-        transform: translateX(2000px);
+        
         transition: transform 0.5s ease-in-out;
     }
     .mostrar{
-        transform: translateX(0);
+        display: block;
     }
 }

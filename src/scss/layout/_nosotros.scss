@@ -1,0 +1,29 @@
+.portfolio{
+    h2{
+        text-align: left
+    }
+    i{
+        text-align: center;
+        width: 100%;
+        font-size: 15rem;
+    }
+    @include tablet{
+        @include grid(2,$separacion/2);
+        .mision,
+        .vision{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            i{
+                font-size: 15rem;
+                width: 40%;
+                margin-top: 2rem;
+            }
+            p{
+                padding: 1rem;
+                margin:0 auto;
+            }
+        }
+    }   
+}
+    

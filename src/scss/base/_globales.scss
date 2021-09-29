@@ -11,6 +11,7 @@ body {
     line-height: 1.8;
 }
 p {
+    font-family: $fuente_parrafos;
     color: $negro;
     font-size: 2rem;
 }
@@ -21,6 +22,7 @@ p {
 }
 
 a {
+    font-family: $fuente_parrafos;
     text-decoration: none;
 }
 
@@ -31,7 +33,7 @@ picture {
 }
 
 h1, h2, h3 {
-    font-family: $fuente_principal;
+    //font-family: $fuente_principal;
     margin: $separacion / 2 0;
     font-weight: 300;
     text-align: center;
@@ -39,12 +41,15 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-family: $fuente_titulos;
     font-size: 3.8rem;
 }
 h2 {
+    font-family: $fuente_parrafos;
     font-size: 3.4rem;
 }
 h3 {
+    font-family: $fuente_parrafos;
     font-size: 3rem;
 }
 h4 {

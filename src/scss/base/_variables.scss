@@ -1,22 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 // Fuentes
 $fuente_principal: 'Lato', sans-serif;
+$fuente_titulos: 'Jura', sans-serif;
+$fuente_parrafos: 'Roboto', sans-serif;
 
 // Tamaño de Media Queries
 $telefono: 480px;
-$tablet: 768px;
+$tablet: 962px;
 $desktop: 1024px;
 
 // Colores
 $negro: #000000;
-$amarillo: #e0c009;;
-$lila: #7f00b18f;
-$azul: #331c9cc5;
+$amarillo: #F5D500;
+$lila: #03124e8a;
+$azul: #001B85;
 $blanco: #FFFFFF;
 $marron: #410909;
-$grisOscuro: #333333;
+$grisOscuro: #8E8287;
 
 $separacion: 5rem;
 

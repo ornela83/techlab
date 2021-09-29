@@ -9,7 +9,7 @@
     padding: 1rem 0 3rem 0;
 }
 .principal{
-    min-height: 40rem;
+    min-height: 60rem;
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -17,26 +17,35 @@
     align-items: flex-start;
     justify-content: center;
     
-    h1{
-        width: 35rem;
+    
+    h1{        
+        width: 80%;
+        height: auto;
         color: $blanco;
-        background-color: rgba(160, 127, 94, 0.5);
-        border-radius: 10%;
-        padding: 2rem;
+        background-color: rgba(146, 114, 81, 0.7);
+        border-radius: 2rem;        
+        text-align: left;
+        font-weight: $bold;
         line-height: normal;
         margin-left: 1rem;
+        padding: 2rem;
         @include tablet{
             margin-left: 10rem;
+            width: 55rem;
+            height: 25rem;
+            padding: 3rem 5rem 0;
+            line-height: 5.5rem;
         }
         
     }
     button{
         cursor: pointer;
-        margin-left: 10rem;
+        margin-left: 12rem;
         padding: 1rem 2rem;
         color: $blanco;
         background-color: $amarillo;
         border: none;
+        border-radius: 2rem;
         font-weight: $bold;
         display: none;
         @include tablet{

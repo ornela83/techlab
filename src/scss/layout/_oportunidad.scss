@@ -1,6 +1,6 @@
 .oportunity{
     margin-top: $separacion;
-    background-color: $lila;
+    background-color: $azul;
     margin-bottom: $separacion;
     h2{
         text-align: left;
@@ -11,4 +11,16 @@
         margin-bottom: $separacion;
         color: $blanco;
     }
+    
+
+}
+.posicionar{
+    @include tablet{
+        @include grid(2,$separacion)
+       
+        img{
+            max-width: 80%;
+        } 
+    }
+    
 }

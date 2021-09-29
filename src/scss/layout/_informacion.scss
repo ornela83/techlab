@@ -14,11 +14,12 @@
     }
 }
 .informacion{
-    background-color: $lila;
+    background-color: $azul;
     max-height: 70rem;
     h3{
         font-weight: $black;
-            color: $blanco;
+        color: $blanco;
+        padding-top: 2rem;
     }
     p{
         color: $blanco;
@@ -31,6 +32,7 @@
         min-height: 20rem;
         max-width: 20rem;
         margin:0 auto;
+        padding: 1rem;
         border-radius: 5%;
         @include tablet{
             margin-bottom: $separacion*2;
@@ -49,12 +51,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 1rem;
+        padding: 1rem;
         background-color: $amarillo;
-        margin: 1.8rem;
-        margin-top: 0;
+        margin: 2rem;
+        border-radius: 1rem;
+        //margin-top: 0;
         
         h3{
+            padding: 0;
             margin:0;
             line-height: normal;
         }
@@ -64,6 +68,7 @@
 }
 .text{
     p{
-        padding-top: 2rem;
+        padding: 2rem;
+        
     }
 }
