@@ -38,21 +38,5 @@
         }
         
     }
-    button{
-        cursor: pointer;
-        margin-left: 12rem;
-        padding: 1rem 2rem;
-        color: $blanco;
-        background-color: $amarillo;
-        border: none;
-        border-radius: 2rem;
-        font-weight: $bold;
-        display: none;
-        @include tablet{
-            display: block;
-            &:hover{
-                opacity: 0.7;
-            }
-        }        
-    }
+    
 }
