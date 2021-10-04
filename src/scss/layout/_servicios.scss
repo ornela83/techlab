@@ -64,6 +64,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 2.5rem;
     h3{
         margin:0;
         font-size: 2.5rem;
@@ -71,8 +72,36 @@
     }
     p{
         margin: 0;
+        text-align: center;
     }
+    /*Reemplazar por estilo de la imagen*/
     i{
         font-size: 30rem;
+    }
+}
+
+/*Accesibilidad*/
+.accesibilidad-rentable{
+    padding-top: $separacion;
+    @include tablet{
+        display: grid;
+        gap: $separacion;
+        grid-template-columns: 60% 40%;
+    }
+    
+}
+.accesibilidad{
+    h2{
+        text-align: left;
+    }
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*reemplazar por imagen*/
+    i{
+        font-size: 45rem;
     }
 }
