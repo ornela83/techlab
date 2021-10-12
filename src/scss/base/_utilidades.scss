@@ -21,16 +21,19 @@
     cursor: pointer;
     margin-left: 12rem;
     padding: 1rem 2rem;
-    color: $blanco;
+    /*color: $blanco;*/
     background-color: $amarillo;
     border: none;
     border-radius: 2rem;
+    font-family: $fuente_principal;
     font-weight: $bold;
     display: none;
     @include tablet{
         display: block;
         &:hover{
-            opacity: 0.7;
+            border: 2px solid $lila;
+            background-color: $negro;
+            color: $amarillo;
         }
     }        
 }

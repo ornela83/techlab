@@ -11,17 +11,30 @@
         li{
             margin: 0 auto;
         }
-        h3{
+        h2{
+            font-family: $fuente_principal;
             text-align: left;
             margin-bottom: 1.5rem;
         }
         a{
+            display: flex;
+            justify-content: left;
+            align-items: center;
             color: $blanco;
-            font-size: 2rem;    
+            font-size: 2rem;
+            font-family: $fuente_parrafos; 
+            p{
+                margin: 0 0 0 1rem;
+                color: $blanco;
+                &:hover{
+                    border: 2px solid $blanco;
+                }
+            }
+            
         }
         i{
-            margin-right: 1rem;
-            
+            font-size: 2rem;
+            padding:1rem;
         }
     }
     .copyright{

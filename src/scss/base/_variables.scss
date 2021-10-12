@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 // Fuentes
-$fuente_principal: 'Lato', sans-serif;
-$fuente_titulos: 'Jura', sans-serif;
-$fuente_parrafos: 'Roboto', sans-serif;
+$fuente_principal: 'Roboto', sans-serif;
+$fuente_titulos: 'Rubik', sans-serif;
+$fuente_parrafos: 'Nunito', sans-serif;
 
 // Tamaño de Media Queries
 $telefono: 480px;
@@ -14,12 +14,13 @@ $tablet: 962px;
 $desktop: 1024px;
 
 // Colores
-$negro: #000000;
-$amarillo: #F5D500;
-$lila: #03124e8a;
-$azul: #001B85;
+$negro: #050505;
+$amarillo: #FFD700;
+$claro: #FFF3D4;
+$lila: #28327D;
+$azul: #3643A3;
 $blanco: #FFFFFF;
-$marron: #410909;
+$marron: #513218;
 $grisOscuro: #8E8287;
 
 $separacion: 5rem;

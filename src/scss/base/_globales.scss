@@ -22,7 +22,7 @@ p {
 }
 
 a {
-    font-family: $fuente_parrafos;
+    font-family: $fuente_principal;
     text-decoration: none;
 }
 
@@ -41,16 +41,16 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-family: $fuente_titulos;
+    font-family: $fuente_principal;
     font-size: 3.8rem;
 }
 h2 {
-    font-family: $fuente_parrafos;
+    font-family: $fuente_titulos;
     font-size: 3.4rem;
 }
 h3 {
     font-family: $fuente_parrafos;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 h4 {
     font-size: 2.6rem;
