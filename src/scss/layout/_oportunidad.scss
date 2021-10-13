@@ -16,7 +16,7 @@
 }
 .posicionar{
     @include tablet{
-        @include grid(2,$separacion)
+        @include grid(2,$separacion);
        
         img{
             max-width: 80%;
