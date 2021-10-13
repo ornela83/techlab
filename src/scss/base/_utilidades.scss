@@ -17,23 +17,30 @@
 .negrita{
     font-weight: $bold;
 }
+.uppercase{
+    text-transform: uppercase;
+}
 .boton{
     cursor: pointer;
     margin-left: 12rem;
     padding: 1rem 2rem;
-    /*color: $blanco;*/
     background-color: $amarillo;
     border: none;
     border-radius: 2rem;
-    font-family: $fuente_principal;
-    font-weight: $bold;
+    a{
+        font-family: $fuente_principal;
+        font-weight: $bold;
+        color:$negro;
+    }
     display: none;
     @include tablet{
         display: block;
         &:hover{
             border: 2px solid $lila;
             background-color: $negro;
-            color: $amarillo;
+            a{
+                color: $amarillo;
+            }
         }
     }        
 }

@@ -1,7 +1,11 @@
 .servicio-principal{
     h1{
-        background-color: rgba(146, 114, 81, 0);
+        background-color: rgba(146, 114, 81, 0.7);
         font-size: 5rem;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 2rem ;
     }
 }
 
