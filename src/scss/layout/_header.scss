@@ -7,6 +7,9 @@
 
 .header{
     padding: 1rem 0 3rem 0;
+    &.fijo{
+        position: fixed;
+    }
 }
 .principal{
     min-height: 60rem;
