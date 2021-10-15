@@ -43,9 +43,11 @@
     }
 }
 .items{
-    .sombra{
+    &.sombra{
         padding: 2rem;
+        margin-top: 2rem;
     }
+    
     padding-bottom: $separacion;
     h3{
         color:$azul;
@@ -62,6 +64,10 @@
         }
     }
 }
+.item{
+    margin-bottom: 2rem;
+}
+
 
 /*Nuestro Equipo*/
 .equipo{

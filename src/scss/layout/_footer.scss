@@ -11,7 +11,7 @@
         li{
             margin: 0 auto;
         }
-        h2{
+        h3{
             font-family: $fuente_principal;
             text-align: left;
             margin-bottom: 1.5rem;
@@ -21,8 +21,10 @@
             justify-content: left;
             align-items: center;
             color: $blanco;
-            font-size: 2rem;
             font-family: $fuente_parrafos; 
+            @include tablet{
+                font-size: 2rem;
+            }
             p{
                 margin: 0 0 0 1rem;
                 color: $blanco;
