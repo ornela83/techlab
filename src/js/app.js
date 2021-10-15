@@ -11,16 +11,18 @@ function iniciarApp(){
     
 }
 function navegacionFija(){
-    const barra = document.querySelector('.header');
+    const barra = document.querySelector('.barra');
     const principal = document.querySelector('.principal')
-
+    const nav = document.querySelector('.nav-principal')
     window.addEventListener('scroll', function(){
         //console.log(principal.getBoundingClientRect());
 
         if ( principal.getBoundingClientRect().bottom < 0 ){
             barra.classList.add('fijo');
+            nav.classList.remove('contenedor')
         }else{
             barra.classList.remove('fijo');
+            nav.classList.add('contenedor')
         }
     });
 }
