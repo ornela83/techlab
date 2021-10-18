@@ -10,7 +10,7 @@
         width: 100%;
         background-color: $blanco;
         opacity: 0.9;
-        box-shadow: .1rem .2rem .1rem #333;
+        box-shadow: .1rem .2rem .1rem rgb(107, 104, 104);
         &.mostrar{
             display: block;
         }
