@@ -24,6 +24,12 @@ p {
 a {
     font-family: $fuente_principal;
     text-decoration: none;
+    &:active{
+        color: $azul;
+    }
+    &:visited{
+        color:none;
+    }
 }
 
 img,

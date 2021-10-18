@@ -22,6 +22,7 @@
             align-items: center;
             color: $blanco;
             font-family: $fuente_parrafos; 
+            text-decoration: underline;
             @include tablet{
                 font-size: 2rem;
             }
