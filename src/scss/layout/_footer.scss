@@ -3,7 +3,6 @@
     margin-bottom: 0;
     .social{
         color: $blanco;
-
         @include tablet{
             display: flex;
             justify-content: left;
@@ -12,7 +11,7 @@
         li{
             margin: 0 auto;
         }
-        h3{
+        h2{
             font-family: $fuente_principal;
             text-align: left;
             margin-bottom: 1.5rem;
@@ -21,15 +20,18 @@
             display: flex;
             justify-content: left;
             align-items: center;
+            gap:1rem;
             color: $blanco;
             font-family: $fuente_parrafos; 
-            text-decoration: underline;
+            
             @include tablet{
                 font-size: 2rem;
             }
             p{
                 margin: 0 0 0 1rem;
+                text-align: left;
                 color: $blanco;
+                text-decoration: underline;
                 &:hover{
                     border: 2px solid $blanco;
                 }
@@ -41,6 +43,12 @@
             padding:1rem;
         }
     }
+    .social-div{
+        ul{
+            padding-left: 0;
+        }
+    }
+
     .copyright{
         background-color: $lila;
         color: $blanco;

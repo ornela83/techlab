@@ -67,6 +67,7 @@ hr{
 .mobile-menu{
     padding-top: 2rem;
     
+    
     @include tablet{
         display: none;
     }
@@ -95,5 +96,6 @@ hr{
     }
     .mostrar{
         display: block;
+        
     }
 }
