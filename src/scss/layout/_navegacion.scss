@@ -11,9 +11,14 @@
         background-color: $blanco;
         opacity: 0.9;
         box-shadow: .1rem .2rem .1rem rgb(107, 104, 104);
+        justify-content: space-between;
         @include tablet{
-            padding: 0 8rem;
+            justify-content: space-evenly;
         }
+        .navegacion{
+            margin-right: 1rem;
+        }
+        
         &.mostrar{
             display: block;
             
@@ -84,9 +89,21 @@ hr{
         right: 0;
         z-index: 10;
     }
+    i{
+        font-size: $separacion;
+        cursor: pointer;
+    }
 }
 .close-menu{
     display: none;
+}
+.block{
+    display: block;
+    z-index: 2;
+}
+.inblock{
+    display: none;
+    z-index: -10;
 }
 /*Side-Bar*/
 @media (max-width: #{$tablet}){
@@ -105,4 +122,5 @@ hr{
     .mostrar{
         display: block;        
     }
+    
 }

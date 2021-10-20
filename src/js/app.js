@@ -28,11 +28,19 @@ function navegacionFija(){
 }
 function eventListeners(){
     const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.addEventListener('click', ()=>{
-        const navegacion = document.querySelector('.navegacion');
-        //console.log(navegacion)
-        navegacion.classList.toggle('mostrar');
+    const closeMenu = document.querySelector('.close-menu');
+    const navegacion = document.querySelector('.navegacion');
+    mobileMenu.addEventListener('click', ()=>{    
+        navegacion.classList.add('mostrar');
+        mobileMenu.classList.add('inblock');
+        closeMenu.classList.add('block');
     });
+    closeMenu.addEventListener('click', ()=>{
+        console.log('click en cruz')
+        navegacion.classList.remove('mostrar');
+        mobileMenu.classList.remove('inblock');
+        closeMenu.classList.remove('block');
+    })
 };
 
 function activeLink(){
