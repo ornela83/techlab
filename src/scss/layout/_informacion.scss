@@ -15,7 +15,7 @@
 }
 .informacion{
     background-color: $azul;
-    max-height: 70rem;
+    min-height: 55rem;
     h2{
         font-weight: $bold;
         color: $blanco;
@@ -23,7 +23,11 @@
     }
     p{
         color: $blanco;
-        
+    }
+    .zoom{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
     }
 }
 .info{

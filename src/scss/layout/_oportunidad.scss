@@ -11,16 +11,12 @@
         margin-bottom: $separacion;
         color: $blanco;
     }
-    
-
 }
 .posicionar{
     @include tablet{
         @include grid(2,$separacion);
-       
         img{
             max-width: 80%;
         } 
     }
-    
 }

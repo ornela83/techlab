@@ -1,5 +1,4 @@
 .article{
-
     @include tablet{
         position: relative;
 }
@@ -16,10 +15,10 @@
     @include tablet{
         position: absolute;
         top: -10rem;
-    }
-    
 
+    }
     h3, p{
+        
         font-family: $fuente_titulos;
         color: $azul;
         text-align: center;
