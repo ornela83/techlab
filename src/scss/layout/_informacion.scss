@@ -34,13 +34,12 @@
     .card{
         background-color: $blanco;
         min-height: 20rem;
-        max-width: 20rem;
+        max-width: 100rem;
         margin:0 auto;
         padding: 1rem;
         border-radius: 5%;
         @include tablet{
             margin-bottom: $separacion*2;
-            margin-left: $separacion*2;
         }
         p{
             text-align: center;
