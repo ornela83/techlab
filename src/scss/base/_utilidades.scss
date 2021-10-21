@@ -44,3 +44,25 @@
         }
     }        
 }
+.skip-main{
+    left: -999px;
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+    color: $azul;
+    &:focus{
+        left: 20%;
+        top: auto;
+        width: 20%;
+        height: auto;
+        padding: 8px;
+        font-size: 14px;
+        outline: 2px solid $azul;
+        text-align: center;
+        z-index: 2000;
+    }
+}
+
