@@ -1,8 +1,8 @@
 .article{
-    @include tablet{
-        position: relative;
-}
     min-height: 55rem;
+    @include tablet{
+        position: relative;}
+    
 }
 .articulo {
     max-width: 120rem;

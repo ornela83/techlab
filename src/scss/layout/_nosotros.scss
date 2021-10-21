@@ -43,13 +43,21 @@
     }
 }
 .items{
-    &.sombra{
-        padding: 2rem;
+    .sombra{
+        padding: 1rem;
+        margin: 1rem;
         margin-top: 2rem;
     }
     
     padding-bottom: $separacion;
     h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 16rem;  
+        margin-top: 0;
+        font-size: 2.5rem;
+        padding: 1rem;
         color:$azul;
         line-height: normal;
         background-color: $claro;
@@ -66,6 +74,9 @@
 }
 .item{
     margin-bottom: 2rem;
+    p{
+        padding-left: 1rem;
+    }
 }
 
 
