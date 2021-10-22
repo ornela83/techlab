@@ -64,7 +64,16 @@
         text-align: center;
         margin-bottom: 0;
  
-        
+        a{
+            background-color: $lila;
+            color: $blanco;
+            text-align: center;
+            margin-bottom: 0;
+            text-decoration: underline;
+            &:hover {
+                border: 2px solid #fff;
+            }
+        }    
     }
     
 }

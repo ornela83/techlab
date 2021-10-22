@@ -8,70 +8,74 @@
     <link rel="stylesheet" href="build/css/app.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <a class= "skip-main" href="#principal">Ir al contenido principal</a>
     <header class= "header">
-        <div class="nav-principal contenedor">
-            <nav class="barra">
+        <div id="menup" class="nav-principal contenedor">
+            <nav role="navigation" class="barra">
                 <a href="/">
-                    <img src="build/img/Logo.webp" alt="Logotipo Incluye" class="logo">
+                    <img src="build/img/Logo.webp" alt="Ir a la pagina de inicio" class="logo animate__animated animate__zoomIn" >
                 </a>
                 <div class="mobile-menu">
-                    <img src="build/img/menu.svg" alt="icono menú responsive">
+                    <img src="build/img/menu.svg" alt="icono menú responsive" aria-expanded="false">
                 </div>
                 <div class="close-menu">
                     <i class="fas fa-times"></i>
                 </div>
                 <ul class="navegacion">
-                    <li>
+                    <li role="menuitem">
                         <a href="index.html" title="">Home</a>
                     </li>
-                    <li>
-                        <a href="nosotros.html" title="">Quiénes Somos</a>
+                    <li role="menuitem">
+                        <a href="nosotros.html" title="" >Quiénes Somos</a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="servicios.html" title="">Servicios</a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="partners.html" title="">Partners</a>
                     </li> 
                 </ul>
             </nav>
         </div>
+        
+    </header>
+    <main>
         <div class="principal contenido-header">
             <div class="contenedor">
-                <h1>La fuerza radica en las diferencias, no en las similitudes.</h1>
-                <button class="boton"><a href="servicios.html"> Nuestros Servicios</a></button>
+                <h1 class="animate__animated animate__zoomIn" >La fuerza radica en las diferencias, no en las similitudes.</h1>
+                <button class="boton animate__animated animate__fadeInRight" aria-label="Ir a la seccion servicios"> Nuestros Servicios</a></button>
             </div>
         </div>
-    </header>
-    <main >
         <section class="contenedor intro">
             <div id="principal" class="left">
-                <p>La pandemia ha generado la necesidad de trasladar muchas de las dinámicas sociales como la educación, salud, productos y servicios a las plataformas digitales.</p>
-                <p>Por lo que, ha obligado a las organizaciones casi a marchar forzadas, a reinventarse y a innovar para sobrevivir y adaptarse, así como promover una Cultura de Diversidad e inclusión socialmente responsable e impactar en la sociedad.</p>
+                <p class="animate__animated animate__fadeInLeft">La pandemia ha generado la necesidad de trasladar muchas de las dinámicas sociales como la educación, salud, productos y servicios a las plataformas digitales.</p>
+                <p class="animate__animated animate__fadeInLeft">Por lo que, ha obligado a las organizaciones casi a marchar forzadas, a reinventarse y a innovar para sobrevivir y adaptarse, así como promover una Cultura de Diversidad e inclusión socialmente responsable e impactar en la sociedad.</p>
                 <p class="profundizar">Pero realmente estamos diseñando Innovación inclusiva para <span class="azul">Todas y todos?</span></p>
             </div>
             <div class="rigth">
                 <!--<video src=""></video>-->
-                <img src="build/img/video.webp" alt="reemplazar por video">
+                <img class="animate__animated animate__fadeInRight" src="build/img/video.webp" alt="reemplazar por video">
             </div> 
         </section>       
     
         <section class="informacion">
             <div class="contenedor">
-                <h2>¿Sabias qué?</h2>
+                <h2  data-aos="zoom-in">¿Sabias qué?</h2>
                 <div class="info">
-                    <div class="card">
-                        <div class="card_2">
+                    <div data-aos="flip-right" class="card">
+                        <div class="card_2" >
                             <h3>1.3</h3>
                             <h3>Billones</h3>
                         </div>
                         <p>Personas con discapacidad y adultos mayores en el mundo</p>
                     </div>
                     <div class="text">
-                        <p class="zoom">Combinados con amigos y familia, el mercado de la discapacidad es del 53% de consumidores. Y controla más de $8 trillones de USD en el ingreso disponible anual.</p>
+                        <p data-aos="fade-le" class="zoom">Combinados con amigos y familia, el mercado de la discapacidad es del 53% de consumidores. Y controla más de $8 trillones de USD en el ingreso disponible anual.</p>
                     </div>
                 </div>
             </div>
@@ -98,12 +102,12 @@
         <section class="oportunity">
             <div class="contenedor posicionar">
                 <div class="contenedor">
-                    <h2>La Oportunidad</h2>
-                    <p>Somos un Laboratorio de innovación inclusiva que prepara futuros talentos en tecnología digital inclusiva y habilidades de emprendimiento y los conecta con las organizaciones que requieren talento para diseñar productos y servicios para todos y generar un impacto por medio de la educación</p>
+                    <h2 data-aos="fade-right">La Oportunidad</h2>
+                    <p data-aos="fade-right">Somos un Laboratorio de innovación inclusiva que prepara futuros talentos en tecnología digital inclusiva y habilidades de emprendimiento y los conecta con las organizaciones que requieren talento para diseñar productos y servicios para todos y generar un impacto por medio de la educación</p>
                 </div>
                 <div class="rigth">
                     <!--<video src=""></video>-->
-                    <img src="build/img/estudiante.webp" alt="reemplazar por video">
+                    <img data-aos="fade-left" src="build/img/estudiante.webp" alt="reemplazar por video">
 
                 </div> 
             </div>
@@ -115,26 +119,28 @@
             <p>Incluye Tech Lab construye ecosistemas de emprendimiento e innovación inclusiva a través de capacitación, consultoría, coaching y eventos. Somos líderes en impulsar la diversidad, la equidad y soluciones Tech 4 en Latam.</p>
             <div class="iconos-servicios">
                 <div class="icono">
-                    <img src="build/img/tienda.webp" alt="Icono Tienda On-line" loading="lazy">
-                    <a href="/" title="">Tienda en Línea</a>
+                    <img src="build/img/tienda.webp" alt="" loading="lazy">
+                    <a href="/" title="" aria-label="Ir a nuestra tienda, abre en una nueva ventana">Tienda en Línea</a>
                 </div>
                 <div class="icono">
-                    <img src="build/img/tecnologia.webp" alt="Icono Inclusión Lab" loading="lazy">
-                    <a href="index.html" title="">Tech4 inclusion LAB</a>
+                    <img src="build/img/tecnologia.webp" alt="" loading="lazy">
+                    <a href="index.html" title="" aria-label="Ir a nuestro laboratorio, abre en una nueva ventana">Tech4 inclusion LAB</a>
                 </div>
                 <div class="icono">
-                    <img src="build/img/Academia.webp" alt="Icono Académico" loading="lazy">
-                    <a href="index.html" title="">Académia</a>
+                    <img src="build/img/Academia.webp" alt="" loading="lazy">
+                    <a href="index.html" title="" aria-label="Ir a nuestra academia, abre en una nueva ventana">Académia</a>
                 </div>
                 <div class="icono">
-                    <img src="build/img/retos.webp" alt="Icono Trofeo" loading="lazy">
-                    <a href="index.html" title="">Retos - Tech4 inclusión</a>
+                    <img src="build/img/retos.webp" alt="" loading="lazy">
+                    <a href="index.html" title="" aria-label="Ir a Retos, abre en una nueva ventana">Retos - Tech4 inclusión</a>
                 </div>
             </div>
         </section>
 
     </main>
-    <footer class="footer seccion">
+
+
+    <footer role="contentinfo" class="footer seccion">
         <div class="contenedor social">
             <div class="social-div">
                 <h2>Contactenos</h2> 
@@ -146,7 +152,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#" target="-blank" aria-label="Ir a Whatsapp, abre en una nueva ventana">
                             <i class="fab fa-whatsapp"></i>
                             <p>Hablemos por WhatsApp</p> 
                         </a>
@@ -157,31 +163,37 @@
                 <h2 class="dismiss">Redes</h2>
                 <ul class="redes">
                     <li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>  
+                        <a href="#" target="_blank" aria-label="Ir a Instagram, abre en una nueva ventana">
+                            <i aria-hidden="true" class="fab fa-instagram"></i>  
                             <p> Síguenos en Instagram</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i> 
+                        <a href="#" target="_blank" aria-label="Ir a Facebook, abre en una nueva ventana">
+                            <i aria-hidden="true" class="fab fa-facebook-f"></i> 
                             <p>Síguenos en Facebook</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fab fa-linkedin-in"></i> 
+                        <a href="#" target="_blank" aria-label="Ir a linquedin, abre en una nueva ventana">
+                            <i aria-hidden="true" class="fab fa-linkedin-in"></i> 
                             <p>Síguenos en Linkedin</p>
                         </a>
-                    </li>
+                    
+                    
                 </ul>
             </div>
         </div>
+        <div><p class="copyright">Incluye Tech Lab &copy; Copyright 2021   |   Sitio creado con amor y mucho café por <a href="https://www.desarrollaweb.com.ar" target="_blank" aria-label="Desarrolla Web, enlace externo">Desarrolla Web</a></p>
+            <a class= "skip-main abajo" href="#menup">Ir al menu principal</a></div>
         
-        <p class="copyright">Incluye Tech Lab 2021 &copy; Copyright 2021   |   Desarrollado por Desarrolla Web</p>
-        <a class= "skip-main abajo" href="#principal">Ir al contenido principal</a>
     </footer>
     
     <script src="build/js/bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>

@@ -27,20 +27,18 @@
     background-color: $amarillo;
     border: none;
     border-radius: 2rem;
-    a{
-        font-family: $fuente_principal;
+    font-family: $fuente_principal;
         font-weight: $bold;
         color:$negro;
-    }
+   
     display: none;
     @include tablet{
         display: block;
         &:hover{
             border: 2px solid $lila;
             background-color: $negro;
-            a{
-                color: $amarillo;
-            }
+            color: $amarillo;
+          
         }
     }        
 }
@@ -54,13 +52,13 @@
     z-index: -999;
     color: $azul;
     &:focus{
-        left: 20%;
+        left: 1%;
         top: auto;
-        width: 20%;
+        width: 14%;
         height: auto;
-        padding: 8px;
-        font-size: 14px;
-        outline: 2px solid $azul;
+        padding: 4px;
+        font-size: 24px;
+        outline: 3px solid $azul;
         text-align: center;
         z-index: 2000;
     }
