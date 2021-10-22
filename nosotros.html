@@ -8,32 +8,35 @@
     <link rel="stylesheet" href="build/css/app.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <!--Animate css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <a class= "skip-main" href="#mision">Ir al contenido principal</a>
     <header class= "header">
-        <div class="nav-principal contenedor">
-            <nav class="barra">
+        <div id="menup" class="nav-principal contenedor">
+            <nav role="navigation" class="barra">
                 <a href="/">
-                    <img src="build/img/Logo.webp" alt="Logotipo Incluye" class="logo">
+                    <img src="build/img/Logo.webp" alt="Ir a la pagina de inicio" class="logo animate__animated animate__zoomIn" >
                 </a>
                 <div class="mobile-menu">
-                    <img src="build/img/menu.svg" alt="icono menú responsive">
+                    <img src="build/img/menu.svg" alt="icono menú responsive" aria-expanded="false">
                 </div>
                 <div class="close-menu">
                     <i class="fas fa-times"></i>
                 </div>
                 <ul class="navegacion">
-                    <li>
+                    <li role="menuitem">
                         <a href="index.html" title="">Home</a>
                     </li>
-                    <li>
-                        <a href="nosotros.html" title="">Quiénes Somos</a>
+                    <li role="menuitem">
+                        <a href="nosotros.html" title="" >Quiénes Somos</a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="servicios.html" title="">Servicios</a>
                     </li>
-                    <li>
+                    <li role="menuitem">
                         <a href="partners.html" title="">Partners</a>
                     </li> 
                 </ul>
@@ -41,7 +44,7 @@
         </div>
         <div class="servicio-principal principal">
             <div class="contenedor">
-                <h1>Misión, Visión y Valores</h1>
+                <h1 class="animate__animated animate__zoomIn" >Misión, Visión y Valores</h1>
                 <!--<button class="boton">Nuestros Servicios</button>-->
             </div>
         </div>
@@ -197,10 +200,14 @@
             </div>
         </div>
         <p class="copyright">Incluye Tech Lab 2021 &copy; Copyright 2021   |   Desarrollado por Desarrolla Web</p>
-        <a class= "skip-main abajo" href="#mision">Ir al contenido principal</a>
+        <a class= "skip-main abajo" href="#menup">Ir al contenido principal</a>
     </footer>
 
 
     <script src="build/js/bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
