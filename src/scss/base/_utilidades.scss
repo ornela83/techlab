@@ -23,6 +23,7 @@
 .boton{
     cursor: pointer;
     margin-left: 12rem;
+    margin-top: 1rem;
     padding: 1rem 2rem;
     background-color: $amarillo;
     border: none;
@@ -30,7 +31,7 @@
     font-family: $fuente_principal;
         font-weight: $bold;
         color:$negro;
-   
+        
     display: none;
     @include tablet{
         display: block;
@@ -38,6 +39,7 @@
             border: 2px solid $lila;
             background-color: $negro;
             color: $amarillo;
+           
           
         }
     }        
@@ -52,15 +54,18 @@
     z-index: -999;
     color: $azul;
     &:focus{
-        left: 1%;
+        left: 4%;
         top: auto;
         width: 14%;
         height: auto;
         padding: 4px;
-        font-size: 24px;
+        font-size: 18px;
         outline: 3px solid $azul;
         text-align: center;
         z-index: 2000;
+        background-color:$amarillo;
+        border-radius: 50PX;
+        text-decoration: underline;
     }
 }
 
