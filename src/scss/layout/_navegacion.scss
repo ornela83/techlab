@@ -33,7 +33,7 @@
 
 .navegacion{
     display: none;
-    
+    z-index:2;
     @include tablet{
         display: flex;
         align-items: center;
@@ -75,6 +75,7 @@ hr{
 /*Menú de Hamburgues*/
 .mobile-menu, .close-menu{
     padding-top: 2rem;
+   
     
     
     @include tablet{
